@@ -1,0 +1,108 @@
+## First Program
+
+In this course, we’ll cover the basic concepts of Python, as well as build real life projects and solve different coding challenges.
+
+let’s kick things off by creating a simple program that displays the text “ Hello World!”.
+
+```python
+print('Hello World!')
+```
+
+Note: The print statement is always followed by parentheses containing the output we want to generate.
+
+## Printing Text
+
+The text in the print statement needs to be enclosed in either single quotes or double quotes. 
+
+```python
+print("Python is cool")
+```
+
+Note: The quotes enclosing the text need to be the same, either both single quotes or both double.
+
+---
+
+Note that the print statement encloses the text we want to output in parentheses. 
+
+```python
+print("Welcome")
+```
+
+Always remember to close the opened parenthesis — without it the print statement will not work.
+
+---
+
+You can use multiple print statements in you code. Each print statement outputs text from a new line.
+
+```python
+print("Akash")
+print("Sonia")
+print("Abhishek")
+print("Sachin")
+```
+
+Python code contains lots of references to Monty Python. So you will see “spam” and “eggs” often used as placeholder variables.
+
+---
+
+## Printing Numbers
+
+You can output numbers without the quotes.
+
+```python
+print(42)
+```
+
+The number 42 us, in the Hitchhiker’s Guide to the Galaxy, the “answer to the meaning of life, the universe, and everything’, calculated by a big computer over a period of 7.5 million years.
+
+---
+
+## Print
+
+Awesome! Now you know how to output text and numbers!
+
+Remember the following important points:
+
+- the print statement needs to be followed by parentheses, enclosing the output we want to generate.
+- text needs to be enclosed in quotes. - either single quotes or double quotes.
+- numbers can be output without using quotes.
+
+---
+
+## Practice makes perfect
+
+Use our code coach exercises below to practice and write real code.
+
+The first exercise is easier, so start with that one, and then try the more complex one.
+
+---
+
+### #Test1: Your First Program:
+
+Let’s code for real!
+
+The given program should output the text: 
+
+“Python is awesome!” 
+
+But something goes wrong.
+
+### Task: Fix the program to generate the required output.
+
+```python
+print("Python is awesome")
+```
+
+output: Python is awesome!
+
+### #Test2: Multiple Lines
+
+Create a program to output the numbers 1, 2 and 3, each on a separate line.
+
+```python
+print(1)
+print(2)
+print(3)
+```
+
+Recall that each print statement outputs from a new line.
