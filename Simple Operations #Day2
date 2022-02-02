@@ -1,0 +1,102 @@
+So Python can spell, but can it count? Let’s talk about calculations.
+
+Doing a calculation in Python is simple, just enter it into the print statement.
+
+```python
+print(2 + 3)
+print(5 + 4 - 3)
+```
+
+See the spaces around the plus and minus signs? The code will work without them - but including them makes it a lot easier to read.
+
+---
+
+Multiplication can be done using *(asterisk) and division can be done using / (slash) sign. 
+
+---
+
+```python
+print(5 * 5) #multiplication 
+print(5 / 5) #Division
+```
+
+Using a single slash to divide numbers always produces a decimal (or float, as it is called in programming), even if the result is a whole number.
+
+---
+
+## Let’s do some more complicated mathematical operations:
+
+Just like in regular math, we can use parentheses to indicate the operations we want performed first, like this:
+
+```python
+print(2 * (3 +4))
+```
+
+Note: Make sure to close all parentheses. 
+
+---
+
+Division results in a decimal. 
+
+What is the output of this code?
+
+```python
+print((4 + 8) / 2)
+```
+
+6.0
+
+---
+
+## Negative Numbers:
+
+You can use the minus sign in front of a number to make it negative.
+
+```python
+print(-8 * 6)
+```
+
+For example: 
+
+```python
+print((-5 - 1) * 3)
+# -18
+```
+
+---
+
+## Big Calculations:
+
+One of the things that is great about Python is that it can perform operations with really big numbers.
+
+For example, let’s calculate 123456789 times 12345:
+
+```python
+print(123456789 * 12345)
+# Output: 1524074060205
+```
+
+---
+
+## Time to practice:
+
+1. Simple Calculation:
+    1. You need to calculate the points earned by a soccer team. The team won 18 games and ended 7 games as a draw. A win brings 3 points, while a draw brings 1.
+    
+    Create a program to calculate and output the total points earned by the team.
+    
+    ```python
+    print(18 * 3 + (7 * 1))
+    ```
+    
+2. Ever wondered how many seconds there are in a month? (30 days)
+    
+    write a program to calculate and output the answer.
+    
+    Remember, there are 24 hours in a day, 60 minutes in an hour, and 60 seconds in a minute.
+    
+    Use  the print() statement to output the result.
+    
+    ```python
+    print(((60 * 60) * 24) * 30)
+    ```
