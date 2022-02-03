@@ -1,0 +1,77 @@
+Before continuing, it’s a good idea to introduce the main types that we use in Python. 
+
+**Each value in Python has a type.**
+
+Text in quotes, no matter single or double, like “Hello World” is called a **string.**
+
+Note: As we have seen, we can use single or double quotes to create strings.
+
+---
+
+## Integers
+
+Whole numbers are called integers.
+
+We can output integers with the print statement.
+
+```python
+print(42)
+```
+
+Integers don't require to be enclosed in quotes.
+
+---
+
+You can add, subtract and multiply integers, producing another integer as a result.
+
+Some examples:
+
+```python
+print(10 - 6 + 22) 
+print(125 * 300)
+```
+
+Note: If you have a python IDE Installed on your Lappy, try  multiplying 42  by 77 and comment the cmd used with resulting integer.
+
+---
+
+## Floats
+
+Do you know that dividing two integers produces a decimal? yeah, and that is called a float.
+
+```python
+print(6 / 2) #output: 3.0
+print(8 / 3) #output: 2.66666665
+```
+
+As you can see, the output is 3.0, not 3 and so on...
+
+So we can say that, the result of division is always a float, even if those with no remainders.
+
+---
+
+You can perform mathematical operations with floats, just like the integers:
+
+```python
+print(2.16 * 8)
+print(5.6 - 2.6)
+print(9.4 + 0.6)
+```
+
+Important: When we add an integer (2) to a float (2.0), the result is always a float i.e. 
+
+```python
+print(2 + 2.0) #output: 4.0
+```
+
+---
+
+## Let’s summarize what Data Types are in Python:
+
+1. Integers are whole numbers, such as 10 and 32
+2. Floats are numbers with a decimal point, like 3.23
+3. Strings are text enclosed in single or double quotes. 
+
+Note: Dividing with a slash produces a float, even if you divide whole numbers.
+
+Thank you for reading the article. Reply with 3 Data types based on float, Integer, and string in comments if you did like it.
