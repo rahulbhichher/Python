@@ -1,0 +1,128 @@
+# Exponentiation
+
+Two asterisks ** are used to raise a number to the power of another, which is called **exponentiation**.
+
+```python
+print(2 ** 5)
+```
+
+---
+
+You can chain exponentiations together.
+
+In other words, you can raise a number to a power, which can also be raised to a power.
+
+```python
+print(2**3**2)
+```
+
+---
+
+We can also use floats in exponentiation.
+
+Check it out. The following code will result in the square root of 9:
+
+```python
+print(9 ** (1/2)) #output: 3.0
+```
+
+The result will be in float.
+
+---
+
+## Floor Division
+
+As we have seen, dividing two numbers always produces a float.
+
+In case we want to find the quantity produced by the division  of two numbers as an integer(also called the quotient), we can use the floor division operator // 
+
+```python
+print(20 // 6) #output: 3
+```
+
+The code above will output 3, because 6 goes into 20 three times.
+
+## Remainder
+
+If we want to find only the remainder in a division, we use the modulo operator %
+
+```python
+print(20 % 6) #output: 2
+```
+
+Practice Task: Change the code to output the remainder of 1024 divided by 42.
+
+#output: 16
+
+### Exercise:
+
+```python
+print(7 % (5 // 2)) #output: 1
+```
+
+---
+
+## Quotient and Remainder
+
+We can also use the floor division and modulo operators with floats.
+
+```python
+print(1.25 % 0.5) #output: 0.25
+print(4.2 // 1.4) #output: 3.0
+```
+
+---
+
+Question: What is the operator used to determine the remainder of a division?
+
+%
+
+---
+
+### Task1: Exponentiation
+
+Write code to output 4 raised to the 5th power
+
+```python
+print(4 ** 5) #output: 1024
+```
+
+### Task2:  Growing Bacteria
+
+Did you know that there are more bacteria cells in your body than cells that make up your body?
+
+Weird!
+
+A bacteria culture starts with 500 bacteria and doubles in size every hour.
+
+Which means that after 1 hour the number of bacteria is 1000, after 2 hours, 2000, and so on.
+
+Calculate and output the number of bacteria that will be in the culture after 24 hours.
+
+Note: The formula to calculate the bacteria after N hours will be: 500*2**ᴺ**
+
+```python
+print(500*2**24) #output: 8388608000
+```
+
+### Task3: Number of Hours
+
+Random task! You need to calculate the number of hours in 888 minutes.
+
+Your program needs to output the number of the hours and then the number of remaining  minutes, on separate lines.
+
+For example, 72 minutes are to 1 hour and 12 minutes, so your program would outpur:
+
+```python
+1
+12
+```
+
+Note: You can use the floor division to find the number of hours, and the modulo operator to find the remaining minutes. Use separate print() statements for each output.
+
+ 
+
+```python
+print(888 // 60)
+print(888 % 60)
+```
