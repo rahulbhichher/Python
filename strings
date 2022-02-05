@@ -1,0 +1,86 @@
+We met with strings in module 1, but now it’s time to get better acquainted.
+
+Remember, we can create a string by entering text between two single or double quotation marks. Like this.
+
+```python
+print("Python is fun")
+print('Always look on the bright side of life')
+```
+
+Note: The delimiter (” or ‘) used for a string doesn’t affect how it behaves in any way. 
+
+---
+
+```python
+print('Hi There')
+```
+
+---
+
+Everything in quotes is a string, even number:
+
+```python
+print('42')
+```
+
+In the code above, 42 is a string, not an integer.
+
+---
+
+## Backslash
+
+In python, the backslash \ is a special character, called the escape character.
+
+It is used to represent certain things in a string, such as new lines, tabs, and other useful things.
+
+---
+
+If you want to include a quote in a string, you need to escape it using a backslash. 
+
+For example: 
+
+```python
+print('Rahul\'s mother: He\'s not an angel. He\'s a very naughty boy!')
+```
+
+Note: Backslashes that we use for escaping don’t get displayed in the output.
+
+---
+
+You can do the same for double quotes. 
+
+For example:
+
+```python
+print("He said: \"Cool!\".")
+```
+
+---
+
+## Time to Practice
+
+### Output The String:
+
+You are given a code that should output a string with quotes. However, it contains errors.
+
+### Task1: Fix the given code to generate the expected output.
+
+```python
+print('I'm learning Python. It's easy.')
+```
+
+```python
+print('I\'m learning Python. It\'s easy.')
+```
+
+### Words of Wisdom:
+
+The man, the legend, Steve Jobs said a lot of cool stuff. Write a program to output his most famous quote in the following format:
+
+“Stay hungry, stay foolish” by Steve Jobs
+
+The output needs to include the double quotes and be exactly in the format shown above.
+
+```python
+print("\"Stay hungry, stay foolish\" by Steve Jobs")
+```
