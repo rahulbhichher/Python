@@ -1,0 +1,76 @@
+### Input
+
+Some programs need to take input from the user.
+
+For example, a game can ask for the user’s name and age as input and then use them in the game.
+
+The input() function prompts the user for input, and returns what they enter as a string. Like this:
+
+```python
+x = input()
+print(x)
+```
+
+---
+
+```python
+text = input()
+print(text)
+```
+
+---
+
+Even if the user enters a number as input, it’s processed as a string
+
+```python
+x = input()
+print("You entered: " + x)
+```
+
+---
+
+> input() produces a string
+> 
+
+---
+
+The input statement needs to be followed by parentheses.
+
+```python
+name = input()
+print("welcome, " + name)
+```
+
+---
+
+You can provide a string to input() between the parentheses, producing a prompt message.
+
+```python
+name = input("Enter your name: ")
+print("Hello, " + name)
+```
+
+The prompt message tells the user what input the program is requesting - so its important to make sure it’s clear.
+
+## Task1: Desired Output
+
+Somebody wrote code to take a string input and output it, repeated 10 times. However, the code results in an error.
+
+Fix the code to output the desired output.
+
+```python
+x = input()
+print(x * 10)
+```
+
+## Task2: Get Notified!
+
+You’re working on a notification system and need to make the notification text eye-catching.
+
+Write a program that takes the text as input and outputs it by adding 3 starts at the beginning and at the end.
+
+```python
+x = input()
+print("*** " + x + " ***")
+
+```
