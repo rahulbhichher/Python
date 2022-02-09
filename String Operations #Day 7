@@ -1,0 +1,108 @@
+In Python math works with words as well as numbers. 
+
+So not only can we add integers and floars, but also strings , using something called concatenation, which can be done or any two strings. Like this:
+
+```python
+print("Spam" + 'eggs')
+#output: Spameggs
+```
+
+---
+
+```python
+print("Python" + "rocks")
+#output: Python rocks
+```
+
+---
+
+Strings containing numbers are still added as strings rather than integers. Like this:
+
+```python
+print("2" + "2")
+#output: 22
+```
+
+Note: But don’t try to add a string to a n umber! Even though they might look similar, they are two different entities, so doing this will break the code and produce an error.
+
+---
+
+```python
+print("4"+"3")
+#output: 43
+```
+
+---
+
+You may not be able to add strings to integers, but you can multiply by them!
+
+Multiplying a string by an integer, produces a repeated version of the original string. Like this:
+
+```python
+print("Spam" * 3)
+#output: SpamSpamSpam
+
+print(4 * '2')
+#output: 2222
+```
+
+---
+
+```python
+print(3 * '7')
+#output: 777
+```
+
+---
+
+But don’t try to multiply a string by another string. This will just generate an error.
+
+For example::
+
+```python
+print("Say" * "Hello")
+#output: ERROR
+```
+
+Note: The same will happen if you try to multiply a string by a float, even if the float is a whole number.
+
+```python
+print(("A"+'B')*(1+2))
+#output: ABABAB
+```
+
+---
+
+### Some key points:
+
+You can include special symbols in a string using the backslash: \n for new lines, \t for tabs. etc.
+
+In case you need to include quotes, you need to escape them using a backslash.
+
+Note: You can add strings together using the plus operator, as well multiply a string with an integers, resulting in a reparented version of the string.
+
+---
+
+> Adding strings together is called “ Concatenation”.
+> 
+
+---
+
+### Task:
+
+You’re given a task to write the word “hi” 42 times. Boring, right?
+
+Write a program to do it for you.
+
+Create a program to output “hi” 42 times, without any separators, on the same line.
+
+Note: Remember, you can multiply strings by numbers.
+
+```python
+print("hi" * 42)
+```
+
+```python
+print('z'*3)
+#output: zzz
+```
