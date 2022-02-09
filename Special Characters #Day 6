@@ -1,0 +1,108 @@
+## Newlines
+
+The backslash is also used to create new lines in text. 
+
+To create a new line we use \n.
+
+```python
+print('One \nTwo \nThree')
+```
+
+## Tab
+
+Similar to a new line, we can create a tab using \t
+
+```python
+print("\t hey \t there")
+```
+
+## Carriage Return
+
+\r is the carriage return symbol:
+
+```python
+print("Hi \r there")
+```
+
+\r is used to shift the cursor to the beginning of the line, however it might not work as expected in all python environments. 
+
+---
+
+> The backslash is called the escape character!
+> 
+
+## Escaping
+
+What if we need to include the special character in our output? For example, what if we want to have \n in the output.
+
+In that case, we simply need yo escape it using another backslash
+
+```python
+print("Newline is \\n")
+```
+
+> Which of the following statements will output “\r\n”?
+> 
+
+```python
+print("\\r\\n")
+```
+
+---
+
+## \n vs \r
+
+What is the difference between \n and \r?
+
+\n is the newline character, while \r is the carriage return. They differ in what uses [them. Windows](http://them.Windows) uses \r\n to signify the enter key passed, while Linux and Unix use \n.
+
+> How many enters in windows does the following code represnt?
+> 
+
+```python
+print("\r\n\r\n\r\n") #3
+```
+
+---
+
+\n is useful, but it can be cumbersome if we’re tryinf to format lots of multiline text.
+
+There’s another way though! Newlines are automatically added for strings created using three quotes. 
+
+```python
+print("""This
+is a 
+multiline
+text""")
+```
+
+This makes it easier to format long, multi-line texts without  the need to explicitly put \n for line breaks.
+
+## Three quotes
+
+When you use three quotes to create text, quotes do not need to be escaped:
+
+For example:
+
+```python
+print('''
+I'm learning.
+python's syntax is easy.
+''')
+```
+
+---
+
+### Task1. Write a program to output the letters A B C F, each on a separate line.
+
+```python
+print('''
+A
+B
+C
+D''')
+```
+
+### Task2. This code tries to make a triangle out of stars. There’s an error in there somewhere- it outputs all the stars on one line, instead of separate lines.
+
+Fix the code to output a triangle of stars that has 4 rows.
